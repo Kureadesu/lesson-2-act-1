@@ -1,0 +1,115 @@
+body {
+    background-image: url(bg.png);
+    object-fit: fill;
+    background-attachment: fixed;
+    background-size: cover;
+    text-overflow: clip;
+
+}
+hr {
+    border-radius: 10px;
+}
+img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    text-align: left;
+    max-width: 100%;
+}
+.important {
+    text-align: center;
+    font-family: 'Tourney';
+    font-size: 45px;
+}
+.subtitle {
+    font-family: 'Source Code Pro';
+    font-size: 32px;
+}
+.subtext {
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    font-family: 'Caveat';
+    text-justify: auto;
+    font-size: 30px;
+}
+.vision-mission {
+    position: relative;
+    text-align: center;
+    color: azure;
+}
+.hymn {
+    color: azure;
+    position: relative;
+    text-align: center;
+}
+div {
+    margin: 20px;
+}
+#avp {
+    border: 10px solid rgb(109, 17, 17);
+    object-fit: contain;
+    width: 400px;
+    position: relative;
+}
+.schoolname {
+    position: relative;
+    text-align: left;
+    font-size: 20px;
+    padding-left: 0px;
+    font-family: 'Source Code Pro';
+    color: rgb(255, 255, 255);
+}
+.img {
+    flex: basis 50;
+}
+.top {
+    border-radius: 20px;
+    background-color: #832525af;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*
+body {
+    background-color: rgb(28, 98, 145);
+}
+*/
+a:link, a:visited {
+    color: #ffffff;
+    text-decoration: none;
+}
+a:hover, a:active {
+    color: slateblue;
+    text-decoration: none;
+}
+#link {
+    position: static;
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Courier New', monospace;
+}
+/*
+html {
+    background-color: rgb(109, 17, 17);
+}
+*/
+mark {
+    color: #ffffff;
+    background-color: #832525af;
+    border-radius: 5px;
+}
+#songdetails {
+    font-size: 20px;
+}
+#body {
+    background-color: rgba(139, 0, 0, 0.212);
+    border-radius: 20px;
+}
+
+/*
+#philsca:link, #philsca:visited {
+    color: #000000;
+    text-decoration: none;
+}
+*/
